@@ -27,7 +27,7 @@ application = tornado.web.Application(
     [
         (r"/", MainHandler),
     ],
-    template_path=root + 'template/',
+    template_path=root,
     static_path=root)
 
 if __name__ == '__main__':
